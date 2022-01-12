@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+	.btn-nav {
+		@apply bg-black px-4 py-2 font-medium text-white ml-4 lg:px-4;
+	}
+
+	.btn-cart {
+		@apply ml-4 flex items-center
+	}
+
+	.btn-cart-quantity {
+		@apply ml-2 text-sm font-medium
+	}
+
+	.btn-product {  
+		@apply px-8 py-4 text-center font-medium text-white bg-brand-light-purple w-full 
+	}
+
+	.form-label {
+		@apply block text-sm 
+	}
+
+	.form-input {
+		@apply block w-full mt-1 px-4 py-2 border font-light focus:outline-none focus:border-brand-light-purple sm:text-sm		
+	}
+
+	.form-button {
+		@apply w-full flex justify-center py-2 px-4 text-sm font-medium text-white bg-brand-purple
+	}
+
+	.table-head {
+		@apply px-6 py-4 text-left text-sm font-medium uppercase
+	}
+
+	.billing-text-row {
+		@apply px-6 py-4 whitespace-nowrap text-xs font-medium text-gray-900 
+	}
+
+
+	.checkout-figure-img {
+		@apply w-24 h-24 rounded-lg object-center object-cover sm:w-32 sm:h-32
+	}
+
+
+}
