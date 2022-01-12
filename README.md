@@ -2,11 +2,9 @@
 
 ## 👋 Te damos la bienvenida
 
-## Introducción
+Es un gusto que nos acompañes en esta serie de comercio electrónico.
 
-En esta serie de 10 artículos, construiremos una aplicación MERN (MongoDB, ExpressJS, React y Node.js) de comercio electrónico.
-
-Está dirigido a entusiastas en React que han desarrollado aplicaciones sencillas y ahora buscan construir con mayor nivel de dificultad.
+A través de 10 artículos, construiremos una aplicación MERN (MongoDB, ExpressJS, React y Node.js).
 
 La gestión de estado ("state management") con React la realizaremos con `useContext` y `useReducer`.
 
@@ -17,6 +15,23 @@ Puedes ver la aplicación final y el repositorio en los siguientes enlaces. Ser�
 **Repositorio de aplicación terminada:** [LINK](https://github.com/mikenievacom)
 
 ![DEMO PIZZA APP](./docs/demo.gif)
+
+
+## 🎯 ¿Para quién está dirigido?
+
+Está dirigido a entusiastas en React que han desarrollado aplicaciones sencillas y ahora buscan construir con mayor nivel de dificultad.
+
+
+## 🚧 ¿Cuáles son los prerequisitos?
+
+Contar con:
+
+- Un nivel intermedio de JavaScript.
+- Conocimientos básicos en React.
+- Conocimientos intermedios en NodeJS.
+
+
+
 
 Con el objetivo claro, nuestro conjunto de tecnologías serán:
 
@@ -50,7 +65,3 @@ Con el objetivo claro, nuestro conjunto de tecnologías serán:
 	- Stripe Checkout
 ```
 
-Comencemos con la parte I.
-
-
-Estaremos desarrollando en una serie de artículos, 
