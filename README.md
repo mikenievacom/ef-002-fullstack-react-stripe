@@ -30,9 +30,6 @@ Contar con:
 - Conocimientos básicos en React.
 - Conocimientos intermedios en NodeJS.
 
-
-
-
 Con el objetivo claro, nuestro conjunto de tecnologías serán:
 
 
