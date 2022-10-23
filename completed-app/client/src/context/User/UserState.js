@@ -35,7 +35,7 @@ const UserState = (props) => {
 
 		try {
 			const res = await axiosClient.post("/users/create", form)
-
+			console.log(res)
 			const token = res.data.data
 
 			dispatch({
@@ -46,7 +46,7 @@ const UserState = (props) => {
 			return
 
 		} catch (error) {
-
+			console.log(error)
 			return error.response.data.msg
 
 		}
